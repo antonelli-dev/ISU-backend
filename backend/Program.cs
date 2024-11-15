@@ -1,30 +1,29 @@
-var builder = WebApplication.CreateBuilder(args);
-{ 
-    builder.Services.AddControllers();
-    builder.Services.AddEndpointsApiExplorer();
-    builder.Services.AddSwaggerGen();
-    builder.Services.AddCors(o => o.AddPolicy("policy", builder =>
-    {
-        builder.AllowAnyOrigin()
-               .AllowAnyMethod()
-               .AllowAnyHeader();
-    }));
-}
+using Microsoft.EntityFrameworkCore;
+using Repository;
+using Repository.Interfaces;
+using Services;
 
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddDbContext<RepositoryContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("sqlConnection")));
+
+builder.Services.AddScoped<ITaskRepository, TaskRepository>();
+builder.Services.AddScoped<TaskService>();
+
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+if (app.Environment.IsDevelopment())
 {
-    if (app.Environment.IsDevelopment())
-    {
-        app.UseSwagger();
-        app.UseSwaggerUI();
-    }
-
-    app.UseHttpsRedirection();
-    app.UseCors("policy");
-    app.UseAuthorization();
-
-    app.MapControllers();
-
-    app.Run();
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
+
+app.UseHttpsRedirection();
+app.UseAuthorization();
+app.MapControllers();
+app.Run();
