@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\anton\\Desktop\\ISU PROJECT\\backend (2)\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B20D4894-2F27-43E9-8367-0655AEF652D6}|backend\\WebApi.csproj|c:\\users\\anton\\desktop\\isu project\\backend (2)\\backend\\backend\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B20D4894-2F27-43E9-8367-0655AEF652D6}|backend\\WebApi.csproj|solutionrelative:backend\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{965A64CC-748E-4610-88BE-9F2D9D9E310D}|Repository\\Repository.csproj|c:\\users\\anton\\desktop\\isu project\\backend (2)\\backend\\repository\\migrations\\20241115233828_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{965A64CC-748E-4610-88BE-9F2D9D9E310D}|Repository\\Repository.csproj|solutionrelative:repository\\migrations\\20241115233828_initialmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B20D4894-2F27-43E9-8367-0655AEF652D6}|backend\\backend.csproj|c:\\users\\anton\\desktop\\isu project\\backend (2)\\backend\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B20D4894-2F27-43E9-8367-0655AEF652D6}|backend\\backend.csproj|solutionrelative:backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20241115233828_InitialMigration.cs",
+              "DocumentMoniker": "C:\\Users\\anton\\Desktop\\ISU PROJECT\\backend (2)\\backend\\Repository\\Migrations\\20241115233828_InitialMigration.cs",
+              "RelativeDocumentMoniker": "Repository\\Migrations\\20241115233828_InitialMigration.cs",
+              "ToolTip": "C:\\Users\\anton\\Desktop\\ISU PROJECT\\backend (2)\\backend\\Repository\\Migrations\\20241115233828_InitialMigration.cs",
+              "RelativeToolTip": "Repository\\Migrations\\20241115233828_InitialMigration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T23:40:32.764Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebApi.csproj",
+              "DocumentMoniker": "C:\\Users\\anton\\Desktop\\ISU PROJECT\\backend (2)\\backend\\backend\\WebApi.csproj",
+              "RelativeDocumentMoniker": "backend\\WebApi.csproj",
+              "ToolTip": "C:\\Users\\anton\\Desktop\\ISU PROJECT\\backend (2)\\backend\\backend\\WebApi.csproj",
+              "RelativeToolTip": "backend\\WebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-15T23:31:38.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\anton\\Desktop\\ISU PROJECT\\backend (2)\\backend\\backend\\appsettings.json",
+              "RelativeDocumentMoniker": "backend\\appsettings.json",
+              "ToolTip": "C:\\Users\\anton\\Desktop\\ISU PROJECT\\backend (2)\\backend\\backend\\appsettings.json",
+              "RelativeToolTip": "backend\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAB5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-15T23:12:57.938Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
